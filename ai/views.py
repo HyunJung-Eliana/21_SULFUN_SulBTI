@@ -1,11 +1,5 @@
-from matplotlib import pyplot as plt
-from plotly.offline import plot
-from plotly.graph_objs import Scatter
-import plotly
-import plotly.express as px
 import pandas as pd
 
-import json
 
 from django.http import HttpResponse
 from django.shortcuts import render
@@ -14,10 +8,6 @@ from django.shortcuts import render
 from analysis.MyAnalysis import MyAnalysis
 
 from config.settings import DATA_DIRS
-
-df = pd.read_csv(DATA_DIRS[0]+'/0816_지역별결제금액.csv', encoding ='cp949')
-geo_path2 = DATA_DIRS[0]+'/LSMD_ADM_SECT_UMD_제주.zip.geojson'
-geo_data2 = json.load(open(geo_path2, encoding='utf-8'))
 
 def home(request):
 	return render(request, 'index.html')
