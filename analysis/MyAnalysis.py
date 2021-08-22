@@ -1,14 +1,14 @@
 class MyAnalysis :
     def mix(self,m1,m2,x1,x2,y1,y2,z1,z2):
-        if ((y1 == 'NO') | (y2 == 'NOpy')) & (z1 == 'NO') | (z2 == 'NO') :
+        if ((y1 == 'NO') | (y2 == 'NO')) & ((z1 == 'NO') | (z2 == 'NO')) :
             all = m1 + m2 + x1 + x2
             you2 = 'NO'
             you3 = 'NO'
-        elif ((y1 != 'NO') & (y2 != 'NO')) & (z1 == 'NO') | (z2 == 'NO') :
+        elif ((y1 != 'NO') & (y2 != 'NO')) & ((z1 == 'NO') | (z2 == 'NO')) :
             all = m1 + m2 + x1 + x2 + y1 + y2
             you2 = y1 + y2
             you3 = 'NO'
-        elif ((y1 == 'NO') | (y2 == 'NO')) & (z1 != 'NO') | (z2 != 'NO') :
+        elif ((y1 == 'NO') | (y2 == 'NO')) & ((z1 != 'NO') | (z2 != 'NO')) :
             all = m1 + m2 + x1 + x2 + z1 + z2
             you2 = 'NO'
             you3 = z1 + z2

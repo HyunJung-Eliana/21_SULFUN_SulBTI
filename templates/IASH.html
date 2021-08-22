@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Simple Sidebar - Start Bootstrap Template</title>
+        <title>술BTI&퍼스널컬러_with인생주낙</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -18,14 +18,14 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Start Bootstrap</div>
+                <div class="sidebar-heading border-bottom bg-light"><a href="{% url 'dashboard' %}"><img src="static/img/로고.png" height="80"></div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'dashboard' %}">뭐마실래?</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'type16' %}">술BTI 알아보기</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'sns' %}">SNS</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="https://sulfun.typeform.com/to/YyKXpblX">술BTI 검사</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="https://sulfun.typeform.com/to/DxyiFzTt">술BTI 검사</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="https://sulfun.com/">술FUN Hompage</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'isjn' %}">만든이</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'isjn' %}">팀소개</a>
                 </div>
             </div>
             <!-- Page content wrapper-->
@@ -33,11 +33,11 @@
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
-                        <button class="btn btn-primary" id="sidebarToggle">Toggle Menu</button>
+                        <button class="btn btn-primary" id="sidebarToggle">Menu</button>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                                <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="{% url 'dashboard' %}">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -54,8 +54,9 @@
                 </nav>
                 <!-- Page content-->
                 <div class="container-fluid">
-                    <h1 class="mt-4">SULBTI with 퍼스널컬러</h1>
-                    <h1>겨울뮤트, IASH</h1>
+                    <h1 class="mt-4">술BTI with 퍼스널컬러</h1>
+                    <h2>겨울뮤트_IASH</h2>
+                    <img src="static/img/6_겨울.png" height="400">
                 </div>
             </div>
         </div>

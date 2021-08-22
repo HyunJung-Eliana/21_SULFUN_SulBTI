@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae8ab1b6-de3d-4b73-b7b6-7a87e32f4440" name="Default Changelist" comment="" />
+    <list default="true" id="ae8ab1b6-de3d-4b73-b7b6-7a87e32f4440" name="Default Changelist" comment="Remove datafiles">
+      <change afterPath="$PROJECT_DIR$/static/img/3_봄.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/4_여름.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/5_가을.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/6_겨울.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/긴소개.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/로고.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/술펀.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/팀소개.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ai/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ai/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/MyAnalysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/MyAnalysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/EAOH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/EAOH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/EAOL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/EAOL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/EASH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/EASH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/EASL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/EASL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ECOH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ECOH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ECOL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ECOL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ECSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ECSH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ECSL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ECSL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/IAOH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/IAOH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/IAOL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/IAOL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/IASH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/IASH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/IASL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/IASL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ICOH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ICOH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ICOL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ICOL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ICSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ICSH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ICSL.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ICSL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/NO.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/NO.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/isjn.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/isjn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/oursulbti.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/oursulbti.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sns.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/type16.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/type16.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +44,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1wuPyzwMCaZ5Vs2PZx0rBhQm3V5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,8 +55,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\AI 술케터\templates" />
+      <recent name="C:\PycharmProjects\AI 술케터\static\img" />
+      <recent name="C:\PycharmProjects\AI 술케터\static\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,6 +74,14 @@
       <option name="presentableId" value="Default" />
       <updated>1629305764114</updated>
     </task>
+    <task id="LOCAL-00001" summary="Remove datafiles">
+      <created>1629314311972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629314311972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -44,5 +95,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove datafiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove datafiles" />
   </component>
 </project>

@@ -83,21 +83,9 @@ def EASH(request) :
 def NO(request) :
 	return render(request, 'NO.html')
 
-# def sns(request) :
-# 	return render(request, 'sns.html')
+def sns(request) :
+	return render(request, 'sns.html')
 
 def isjn(request) :
 	return render(request, 'isjn.html')
 
-def sns(request):
-	fig1 = plot(px.choropleth_mapbox(df, geojson=geo_data2,
-							   locations='emd_nm',
-							   color='pay_amt',
-							   color_continuous_scale="matter",
-							   range_color=(0, 1000000),
-							   mapbox_style="carto-positron",
-							   featureidkey="properties.EMD_NM",
-							   zoom=9, center={"lat": 33.39075486566194, "lon": 126.53390204213252},
-							   opacity=0.5,
-							   labels={'emd_nm': 'pay_amt'}), output_type='div')
-	return render(request, 'sns.html', context={'plot_div1': fig1})

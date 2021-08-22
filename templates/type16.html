@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Simple Sidebar - Start Bootstrap Template</title>
+        <title>술BTI&퍼스널컬러_with인생주낙</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{% static 'assets/favicon.ico' %}" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -18,14 +18,14 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Start Bootstrap</div>
+                <div class="sidebar-heading border-bottom bg-light"><a href="{% url 'dashboard' %}"><img src="static/img/로고.png" height="80"></div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'dashboard' %}">뭐마실래?</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'type16' %}">술BTI 알아보기</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'sns' %}">SNS</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="https://sulfun.typeform.com/to/YyKXpblX">술BTI 검사</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="https://sulfun.typeform.com/to/DxyiFzTt">술BTI 검사</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="https://sulfun.com/">술FUN Hompage</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'isjn' %}">만든이</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url 'isjn' %}">팀소개</a>
                 </div>
             </div>
             <!-- Page content wrapper-->
@@ -33,11 +33,11 @@
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
-                        <button class="btn btn-primary" id="sidebarToggle">Toggle Menu</button>
+                        <button class="btn btn-primary" id="sidebarToggle">Menu</button>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                                <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="{% url 'dashboard' %}">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
@@ -54,16 +54,10 @@
                 </nav>
                 <!-- Page content-->
                 <div class="container-fluid">
-                    <h1 class="mt-4">SULBTI with 퍼스널컬러</h1>
+                    <h1 class="mt-4">술BTI with 퍼스널컬러</h1>
                     <p>친구와 뭐 마실까 고민된다면 퍼술널컬러!</p>
                     <table>
                         <tr>
-                            <th>유형</th>
-                            <th>네이밍</th>
-                            <th>대표컬러</th>
-                            <th>유형</th>
-                            <th>네이밍</th>
-                            <th>대표컬러</th>
                             <th>유형</th>
                             <th>네이밍</th>
                             <th>대표컬러</th>
@@ -74,24 +68,32 @@
                         <tr>
                             <td>ECOL</td><td>봄라이트</td><td><a href="{% url 'ECOL' %}"><img src="static/img/ECOL.png" width="20" height="20"></a></td>
                             <td>ECSL</td><td>봄클리어</td><td><a href="{% url 'ECSL' %}"><img src="static/img/ECSL.png" width="20" height="20"></a></td>
+                        </tr>
+                        <tr>
                             <td>ECSH</td><td>봄뮤트</td><td><a href="{% url 'ECSH' %}"><img src="static/img/ECSH.png" width="20" height="20"></a></td>
                             <td>ECOH</td><td>봄딥</td><td><a href="{% url 'ECOH' %}"><img src="static/img/ECOH.png" width="20" height="20"></a></td>
                         </tr>
                         <tr>
                             <td>EAOL</td><td>여름라이트</td><td><a href="{% url 'EAOL' %}"><img src="static/img/EAOL.png" width="20" height="20"></a></td>
                             <td>EASL</td><td>여름클리어</td><td><a href="{% url 'EASL' %}"><img src="static/img/EASL.png" width="20" height="20"></a></td>
+                        </tr>
+                        <tr>
                             <td>EASH</td><td>여름뮤트</td><td><a href="{% url 'EASH' %}"><img src="static/img/EASH.png" width="20" height="20"></a></td>
                             <td>EAOH</td><td>여름딥</td><td><a href="{% url 'EAOH' %}"><img src="static/img/EAOH.png" width="20" height="20"></a></td>
                         </tr>
                         <tr>
                             <td>ICOL</td><td>가을라이트</td><td><a href="{% url 'ICOL' %}"><img src="static/img/ICOL.png" width="20" height="20"></a></td>
                             <td>ICSL</td><td>가을클리어</td><td><a href="{% url 'ICSL' %}"><img src="static/img/ICSL.png" width="20" height="20"></a></td>
+                        </tr>
+                        <tr>
                             <td>ICSH</td><td>가을뮤트</td><td><a href="{% url 'ICSH' %}"><img src="static/img/ICSH.png" width="20" height="20"></a></td>
                             <td>ICOH</td><td>가을딥</td><td><a href="{% url 'ICOH' %}"><img src="static/img/ICOH.png" width="20" height="20"></a></td>
                         </tr>
                         <tr>
                             <td>IAOL</td><td>겨울라이트</td><td><a href="{% url 'IAOL' %}"><img src="static/img/IAOL.png" width="20" height="20"></a></td>
                             <td>IASL</td><td>겨울클리어</td><td><a href="{% url 'IASL' %}"><img src="static/img/IASL.png" width="20" height="20"></a></td>
+                        </tr>
+                        <tr>
                             <td>IASH</td><td>겨울뮤트</td><td><a href="{% url 'IASH' %}"><img src="static/img/IASH.png" width="20" height="20"></a></td>
                             <td>IAOH</td><td>겨울딥</td><td><a href="{% url 'IAOH' %}"><img src="static/img/IAOH.png" width="20" height="20"></a></td>
                         </tr>
